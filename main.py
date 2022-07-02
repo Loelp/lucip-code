@@ -114,7 +114,7 @@ city = data['city']
 country = data['country']
 region = data['region']
 
-if testmode == True:
+if testmode is True:
     print(ip)
     print(org)
     print(city)
@@ -346,7 +346,7 @@ def checks():
     # Checking for Chrome Driver existence
     chromedriver = Path("extentions/chromedriver.exe")
 
-    if testmode == True:
+    if testmode is True:
         pass
     else:
         if chromedriver.is_file():
@@ -741,7 +741,7 @@ def views(videolink):
             (By.XPATH, f"{clickviews}"))).click()
 
     # Minimise window
-    if testmode == True:
+    if testmode is True:
         pass
     else:
         driver.set_window_position(-2000, 2000)
