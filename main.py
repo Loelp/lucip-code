@@ -169,7 +169,7 @@ def checks():
 
 
     # Checking version
-    textcheckingversion = f"""
+    textcheckingversion = rf"""
 | *    *    .     *     *    .      *      __    __  __________________ *       *    .     *     *    .      *    *   |
 |  .    .       *       *   .    *        / /   / / / / ____/  _/ __  /     .    .       *       *   .    *  .  *  .  |
 | *     .    *   .     *    .    *   .   / /   / / / / /    / // /_/ /   *     .    *   .     *    .    *    .   *    |
@@ -207,7 +207,7 @@ def checks():
     else:
         sleep(0.5)
         os.system('cls')
-        textwrongversion = f"""
+        textwrongversion = rf"""
 | *    *    .     *     *    .      *      __    __  __________________ *       *    .     *     *    .      *    *   |
 |  .    .       *       *   .    *        / /   / / / / ____/  _/ __  /     .    .       *       *   .    *  .  *  .  |
 | *     .    *   .     *    .    *   .   / /   / / / / /    / // /_/ /   *     .    *   .     *    .    *    .   *    |
@@ -247,7 +247,7 @@ def checks():
     os.system('cls')
 
     # Checking for maintenance
-    textmaint = f"""
+    textmaint = rf"""
 | *    *    .     *     *    .      *      __    __  __________________ *       *    .     *     *    .      *    *   |
 |  .    .       *       *   .    *        / /   / / / / ____/  _/ __  /     .    .       *       *   .    *  .  *  .  |
 | *     .    *   .     *    .    *   .   / /   / / / / /    / // /_/ /   *     .    *   .     *    .    *    .   *    |
@@ -281,7 +281,7 @@ def checks():
     else:
         os.system("cls")
 
-        textmaintfail = """
+        textmaintfail = r"""
 | *    *    .     *     *    .      *      __    __  __________________ *       *    .     *     *    .      *    *   |
 |  .    .       *       *   .    *        / /   / / / / ____/  _/ __  /     .    .       *       *   .    *  .  *  .  |
 | *     .    *   .     *    .    *   .   / /   / / / / /    / // /_/ /   *     .    *   .     *    .    *    .   *    |
@@ -313,7 +313,7 @@ def checks():
     os.system('cls')
     sleep(0.5)
 
-    textinitchrome = f"""
+    textinitchrome = rf"""
 | *    *    .     *     *    .      *      __    __  __________________ *       *    .     *     *    .      *    *   |
 |  .    .       *       *   .    *        / /   / / / / ____/  _/ __  /     .    .       *       *   .    *  .  *  .  |
 | *     .    *   .     *    .    *   .   / /   / / / / /    / // /_/ /   *     .    *   .     *    .    *    .   *    |
@@ -357,7 +357,7 @@ def checks():
             # Doesn't Exist - Stop
             os.system('cls')
 
-            textchromedriverfail = f"""
+            textchromedriverfail = rf"""
 | *    *    .     *     *    .      *      __    __  __________________ *       *    .     *     *    .      *    *   |
 |  .    .       *       *   .    *        / /   / / / / ____/  _/ __  /     .    .       *       *   .    *  .  *  .  |
 | *     .    *   .     *    .    *   .   / /   / / / / /    / // /_/ /   *     .    *   .     *    .    *    .   *    |
@@ -391,7 +391,7 @@ def checks():
     # Verifying chrome installed
     os.system('cls')
 
-    textchromecheck = f"""
+    textchromecheck = rf"""
 | *    *    .     *     *    .      *      __    __  __________________ *       *    .     *     *    .      *    *   |
 |  .    .       *       *   .    *        / /   / / / / ____/  _/ __  /     .    .       *       *   .    *  .  *  .  |
 | *     .    *   .     *    .    *   .   / /   / / / / /    / // /_/ /   *     .    *   .     *    .    *    .   *    |
@@ -429,7 +429,7 @@ def checks():
 
 def program():
     # Program main screen
-    textprogramhome = f"""
+    textprogramhome = rf"""
 | *    *    .     *     *    .      *      __    __  __________________ *       *    .     *     *    .      *    *   |
 |  .    .       *       *   .    *        / /   / / / / ____/  _/ __  /     .    .       *       *   .    *  .  *  .  |
 | *     .    *   .     *    .    *   .   / /   / / / / /    / // /_/ /   *     .    *   .     *    .    *    .   *    |
@@ -527,7 +527,7 @@ def debug():
 
 def shares():
     os.system('cls')
-    sharestext = f"""
+    sharestext = rf"""
 | *    *    .     *     *    .      *      __    __  __________________ *       *    .     *     *    .      *    *   |
 |  .    .       *       *   .    *        / /   / / / / ____/  _/ __  /     .    .       *       *   .    *  .  *  .  |
 | *     .    *   .     *    .    *   .   / /   / / / / /    / // /_/ /   *     .    *   .     *    .    *    .   *    |
@@ -588,7 +588,7 @@ def shares():
 
 def settings():
     os.system('cls')
-    settingsscreen = f"""
+    settingsscreen = rf"""
 | *    *    .     *     *    .      *      __    __  __________________ *       *    .     *     *    .      *    *   |
 |  .    .       *       *   .    *        / /   / / / / ____/  _/ __  /     .    .       *       *   .    *  .  *  .  |
 | *     .    *   .     *    .    *   .   / /   / / / / /    / // /_/ /   *     .    *   .     *    .    *    .   *    |
@@ -629,7 +629,7 @@ Press "x" then "enter" to return
 
 def main():
     os.system('cls')
-    textmain = f"""
+    textmain = rf"""
 | *    *    .     *     *    .      *      __    __  __________________ *       *    .     *     *    .      *    *   |
 |  .    .       *       *   .    *        / /   / / / / ____/  _/ __  /     .    .       *       *   .    *  .  *  .  |
 | *     .    *   .     *    .    *   .   / /   / / / / /    / // /_/ /   *     .    *   .     *    .    *    .   *    |
@@ -669,7 +669,7 @@ def main():
 def views(videolink):
     # Print text
     os.system('cls')
-    textbot = f"""
+    textbot = rf"""
 | *    *    .     *     *    .      *      __    __  __________________ *       *    .     *     *    .      *    *   |
 |  .    .       *       *   .    *        / /   / / / / ____/  _/ __  /     .    .       *       *   .    *  .  *  .  |
 | *     .    *   .     *    .    *   .   / /   / / / / /    / // /_/ /   *     .    *   .     *    .    *    .   *    |
